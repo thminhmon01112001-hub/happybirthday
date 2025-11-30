@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Phan Hà Anh!</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+    /* Thiết lập nền màu Pastel chuyển động */
+    body {
+        margin: 0;
+        min-height: 100vh; 
+        padding: 30px 0; 
+        overflow-x: hidden; 
+        
+        display: flex;
+        justify-content: center;
+        /* THAY ĐỔI: Sử dụng align-items: flex-start để card bắt đầu từ trên nếu nó dài hơn màn hình */
+        align-items: flex-start; /* <<< Thay đổi */ 
+        background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+        background-size: 400% 400%;
+        animation: gradientBG 10s ease infinite;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    /* Khung chứa nội dung (Glassmorphism), căn lề trái */
+    .card {
+        /* THAY ĐỔI MÀU NỀN CỦA CARD */
+        background: linear-gradient(135deg, rgba(255, 240, 245, 0.9), rgba(255, 220, 230, 0.9)); /* <<< Thay đổi màu pastel */
+        padding: 40px 60px;
+        border-radius: 30px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* <<< Giảm độ bóng */
+        text-align: left; 
+        max-width: 650px; 
+        position: relative;
+        z-index: 10;
+        margin: 30px auto; /* Tăng margin-top/bottom để card không bị dính sát mép */
+    }
+
+    h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 3.5em;
+        margin: 10px 0 20px 0;
+        color: #ff6b81;
+        text-shadow: 2px 2px 0px rgba(255,255,255,0.7); /* Giảm độ đậm của shadow chữ */
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1em;
+        color: #333;
+        line-height: 1.8;
+        margin-bottom: 25px;
+    }
+
+    .cake {
+        font-size: 80px;
+        animation: bounce 2s infinite ease-in-out;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px) rotate(3deg); }
+    }
+
+    /* Các hình trái tim bay bay ở background */
+    .floating-heart {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.6);
+        animation: floatUp 10s linear infinite;
+        z-index: 1;
+        font-size: 2em;
+    }
+
+    @keyframes floatUp {
+        0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+    }
+    
+    .signature {
+        font-weight: bold;
+        text-align: right;
+        font-family: 'Pacifico', cursive;
+        font-size: 1.3em;
+        color: #a18cd1;
+        margin-top: 15px;
+    }
+
+</style>
+</head>
+<body>
+
+    <div class="floating-heart" style="left: 10%; animation-duration: 8s;">♥</div>
+    <div class="floating-heart" style="left: 30%; animation-duration: 12s; font-size: 3em;">★</div>
+    <div class="floating-heart" style="left: 70%; animation-duration: 7s;">♥</div>
+    <div class="floating-heart" style="left: 90%; animation-duration: 10s; font-size: 1.5em;">★</div>
+
+    <div class="card">
+        <div class="cake">🎂</div>
+        <h1>Happy Birthday, Phan Hà Anh!</h1>
+        <p>
+            Chào Phan Hà Anh nha, Minh nèeee<br><br>
+            2 đứa mình nói chuyện cũng được hơn 1 tháng rồi í nhì, cũm cũm trải qua sinh nhật của cả 2 đứa lun rồi á haa (cứ nghĩ hồi í bảo chờ đến sinh nhật Hà Anh lâu lâu nhưng mà cũng vèo cái đã đến rùi í nhờ). Minh vẫn nhớ hôm đầu nhắn tin Hà Anh cứ "dạ" "vâng ạ" "dạ đúng rồi ạ" ngoan ngoãn lễ phép mà Minh rén rén quá chời, hông biết có nên nhắn tiếp hay khum mà vẫn liều nhắn lun hehe, may là mình vẫn tiếp tục nè<br><br>
+            Thì hơn 1 tháng 2 đứa nói chuyện rùi á, Hà Anh có ghéc ghéc Minh như hồi mới đầu hong ạ hay là hình ảnh Minh có được nâng cao hơn trong trái tim Hà Anh khumm (Hehe mong là có để thúc giục Hà Anh gặp Minh sớm sớm i chứ cũng lâu lâu rùi á he). Mong là Hà Anh sẽ hong coi Minh như người lạ xa vời nữa mà thân thân hơn xíu xíu nữa nhaaa<br><br>
+            Rùi thì nay cũng là sinh nhật của Phan Hà Anh hee, mong rằng tuổi mới của Hà Anh sẽ chào đón những niềm vui mới, những hạnh phúc mới và những thành công mới. Mong rằng Hà Anh sẽ tiếp tục hành trình của mình thật thành công và trọn vẹn với bao điều mơ ước, hoài bão và dự định của bản thân. Sau này trên con đường Hà Anh đi sẽ luôn có người đồng hành, dõi theo và là chỗ dựa vững chắc cho Hà Anh. Chúc Hà Anh tuổi mới cute cute hơn, xinh hơn nè, đáng iu và giữ được sự nhiệt huyết trong mình nè và ... Minh cũng muốn được xuất hiện trong tương lai sau này của Hà Anh á hihi<br><br>
+            Xin cảm ơn vì đã đọc nhaaaa
+        </p>
+        <div class="signature">
+            Trai đẹp Trần Hoàng Minh 💖
+        </div>
+    </div>
+
+</body>
+</html>
